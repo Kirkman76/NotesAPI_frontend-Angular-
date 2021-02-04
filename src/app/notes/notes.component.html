@@ -1,0 +1,20 @@
+<table border=1  class="table table-dark table-striped table-hover">
+    <thead>
+      <tr>
+    <th>Id</th>
+    <th>{{'NOTES.HEAD1' | translate}}</th>
+    <th>{{'NOTES.HEAD2' | translate}}</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="active"
+    *ngFor="let s of notes"
+    >
+    <td>{{s.Id}}</td>
+    <td>{{s.Date}}</td>
+    <td>{{s.Note}}</td>
+    <button id="s.Id" class="btn btn-outline-dark active" value="s.Id"><a routerLink ="/update" [queryParams]="{'id':s.Id}">{{'NOTES.EDIT_BTN' | translate}}</a> </button>
+    <button id="s.Id" class="btn btn-outline-dark active" value="s.Id" (click)="DelNote(s.Id)">{{'NOTES.DEL_BTN' | translate}}</button>
+    </tr>
+    </tbody>
+  </table>

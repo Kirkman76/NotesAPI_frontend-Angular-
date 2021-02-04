@@ -1,0 +1,24 @@
+<div>
+    <form>
+            <input type="text" id="idTb"
+            #idTb
+                    class="form-control"
+                    placeholder="Id..."
+                    >
+
+            <input type="text" id="dateTb"
+            #dateTb
+                    class="form-control"
+                    placeholder="{{'ADD.DATE_PLCH' | translate}}..."
+                    >
+            
+            <input type="text" id="noteTb"
+            #noteTb
+                    class="form-control"
+                    placeholder="{{'ADD.NOTE_PLCH' | translate}}..."
+                    >
+
+            <Button class="btn" (click)="AddNote(idTb.value, dateTb.value, noteTb.value)">{{'ADD.ADD_BTN' | translate}}</Button>
+    </form>
+
+</div>

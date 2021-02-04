@@ -1,0 +1,30 @@
+{
+    "NAVBAR": {
+        "TITLE": "My notes",
+        "LINK1": "Notes list",
+        "LINK2": "Add note",
+        "LINK3": "About author",
+        "BTN_EN": "EN",
+        "BTN_RU": "РУС"
+    },
+    "MAIN":{
+        "TITLE":"My notes"
+    },
+    "NOTES":{
+        "HEAD1": "Date",
+        "HEAD2": "Note",
+        "EDIT_BTN": "Edit",
+        "DEL_BTN": "Delete"
+    },
+    "EDIT":{
+        "EDIT_BTN": "Edit"
+    },
+    "ADD":{
+        "DATE_PLCH": "Date",
+        "NOTE_PLCH": "Note",
+        "ADD_BTN": "Add"
+    },
+    "ABOUT":{
+        "TEXT": "Created by Kirill Kravchenko"
+    }
+}

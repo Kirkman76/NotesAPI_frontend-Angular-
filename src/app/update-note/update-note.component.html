@@ -1,0 +1,17 @@
+<div>
+    <form>
+            <input type="text" id="idTb"
+            #idTb
+                    class="form-control">
+
+            <input type="text" id="dateTb"
+            #dateTb
+                    class="form-control">
+            
+            <input type="text" id="noteTb"
+            #noteTb
+                    class="form-control">
+
+            <Button class="btn" (click)="UpdateNote(idTb.value, dateTb.value, noteTb.value)">{{'NOTES.EDIT_BTN' | translate}}</Button>
+    </form>
+</div>
